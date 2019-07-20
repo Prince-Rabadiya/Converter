@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Converter</title>
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="converter.css" />
+  <script src="converter.js"></script>
+  
+
+
+</head>
+
+<body>
+  <h1>Converter</h1>
+  <h2>Weight Converter</h2>
+  <div class="weight">
+
+
+
+    <p>--> choose from which unit to which unit you want to convert weight</p>
+    <select id="weights">
+      <option value="1">pound</option>
+      <option value="2">kg</option>
+      <option value="3">gm</option>
+      <option value="4">ounce</option>
+    </select>
+    to
+    <select id="weightd">
+      <option value="1">pound</option>
+      <option value="2">kg</option>
+      <option value="3">gm</option>
+      <option value="4">ounce</option>
+    </select>
+    <br />
+    <br />
+    <form>
+      <input type="number" name="weightConverter" placeholder="your value here" autofocus>
+      <input type="submit" name="Ans" id="weightbutton" onclick="calculateWeight()" value="Ans">
+    </form>
+    <p>--> your answer will be alerted</p>
+  </div>
+
+  <h2>Distance Converter</h2>
+  <div class="distance">
+
+
+    <p>--> choose from which unit to which unit you want to convert Distance</p>
+    <select id="distances">
+      <option value="1">foot</option>
+      <option value="2">m</option>
+      <option value="3">cm</option>
+      <option value="4">inch</option>
+      <option value="5">mm</option>
+      <option value="6">miles</option>
+      <option value="7">km</option>
+    </select>
+    to
+    <select id="distanced">
+      <option value="1">foot</option>
+      <option value="2">m</option>
+      <option value="3">cm</option>
+      <option value="4">inch</option>
+      <option value="5">mm</option>
+      <option value="6">miles</option>
+      <option value="7">km</option>
+    </select>
+    <br>
+    <br>
+    <form>
+      <input type="number" name="distanceConverter" placeholder="your value here">
+      <input type="submit" name="Ans" value="Ans" onclick="calculatedistance()">
+    </form>
+    <p>--> Your answer will be alerted</p>
+  </div>
+
+</body>
+
+</html>
